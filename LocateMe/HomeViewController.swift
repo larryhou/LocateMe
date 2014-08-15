@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController
+class HomeViewController: UITabBarController
 {
                             
     override func viewDidLoad()
@@ -16,13 +16,10 @@ class ViewController: UIViewController
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning()
+    
+    @IBAction func returnHomeByUnwind(segue:UIStoryboardSegue)
     {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
-
-
 }
 
